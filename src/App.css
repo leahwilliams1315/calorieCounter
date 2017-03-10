@@ -1,0 +1,70 @@
+body{
+    background-color: inherit;
+}
+.App {
+  text-align: center;
+  font-size: larger;
+    font-family: Futura;
+}
+.header{
+    background-color: #17dcf5;
+}
+.App-intro {
+  font-size: large;
+}
+.progress-circle{
+    width: 200px;
+: #fff;
+}
+.profile-container{
+    display: flex;
+    justify-content: space-around;
+}
+.food-list{
+    justify-content: center;
+}
+/*}*/
+/*.profile{*/
+    /*align-self: center;*/
+
+
+
+/*/ food-input styles/*/
+
+.food-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.meal-input{
+    margin: 30px;
+    text-align: center;
+    padding-left:15px;
+}
+.calorie-input{
+    margin: 30px;
+    text-align: center;
+    padding-left:15px;
+}
+
+/*.button-1{*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 10px;*/
+
+/*}*/
+/*.button-2{*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 10px;*/
+/*}*/
+.buttons{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+
+}
+.save{
+    display: flex;
+    justify-content: center;
+
+}
+/*////flex infront of all, sort out parent divs of inputs and name buttons*/
